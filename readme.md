@@ -113,14 +113,14 @@ If you do not want the GUI runtime window to be displayed, set use_gui: False (d
 
 ### 4 News and TODOs
 
-```
-* - [X]The DQ-MAP paper published online
-* - [X]Release the rough version of the source code
-* - [ ]The complete source code after open source refactoring
-* - [ ]Publish the dataset online
-* - [ ]A GUI page for achieving parallel and efficient mesh visualization
-* - [ ]Implement an object association strategy with higher speed and accuracy
-```
+
+* - [X] 📰The DQ-MAP paper published online
+* - [X] 🔥Release the rough version of the source code
+* - [ ] The complete source code after open source refactoring
+* - [ ] Publish the dataset online
+* - [ ] A GUI page for achieving parallel and efficient mesh visualization
+* - [ ] Implement an object association strategy with higher speed and accuracy
+
 
 
 <section class="section" id="BibTeX">
