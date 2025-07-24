@@ -1,36 +1,35 @@
-name: RTG-SLAM
+name: DQO-MAP
 channels:
-  - pytorch
-  - conda-forge
-  - nvidia
   - pytorch3d
+  - pytorch
+  - nvidia
+  - conda-forge
   - defaults
 dependencies:
-  - cudatoolkit=11.7
+  - cudatoolkit=11.7.1
+  - ffmpeg
+  - pillow=9.4.0
+  - pip
   - plyfile
-  - python=3.9.0
+  - python=3.9.21
   - pytorch=1.13.1
+  - pytorch3d
+  - tensorboard
   - torchaudio=0.13.1
   - torchvision=0.14.1
   - tqdm
-  - tensorboard
-  - torchmetrics
-  - pytorch3d
   - pip:
-    - pytorch_msssim
-    - trimesh
-    - scikit-image
-    - open3d
-    - pyyaml
-    - scipy
-    - opencv-python
-    - matplotlib
-    - GPUtil
-    - submodules/cuda_utils
-    - submodules/diff-gaussian-rasterizer-depth
-    - submodules/simple-knn
-    - imgviz
-    - PyOpenGL
-    - glm
-    - glfw
-    -
+      - glfw
+      - glm
+      - gputil
+      - matplotlib
+      - numpy
+      - open3d
+      - opencv-python
+      - pandas
+      - pytz
+      - scipy
+      - pyyaml
+      - submodules/cuda_utils
+      - submodules/diff-gaussian-rasterizer-depth
+      - submodules/simple-knn
