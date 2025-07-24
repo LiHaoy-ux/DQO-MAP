@@ -111,14 +111,16 @@ python slam_mp.py --config ./configs/aithor/aithor1.yaml
 
 If you do not want the GUI runtime window to be displayed, set use_gui: False (default true) in the last line of config/base.yaml.
 
-### 4 Supplementary Explanation
+### 4 News and TODOs
 
-#### 4.1 Refactored Object Reconstruction
-We re-implemented the object-level Gaussians layer to decouple pose, scale, and shape parameters, enabling per-object optimization without mutual interference. This results in faster convergence: independent learning-rate scheduling per object. The code is cleaner, with a pure PyTorch backend and zero OpenGL dependency.
-#### 4.2 Parallel & Efficient Mesh GUI
-A lightweight Open3D-based viewer is shipped that streams meshes from GPU tensors via shared memory, supports with many objects on a single RTX 3090, and toggles object-wise visibility/opacity in real time.
-#### 4.3 High-Speed Object Management
-A two-stage strategy keeps tracking both fast and accurate: CPU association using instance masks + IoU gating. GPU adjustment optimizes only active objects; inactive ones are cached to CPU RAM, cutting VRAM by ~35 %.
+```
+* - [X]The DQ-MAP paper published online
+* - [X]Release the rough version of the source code
+* - [ ]The complete source code after open source refactoring
+* - [ ]Publish the dataset online
+* - [ ]A GUI page for achieving parallel and efficient mesh visualization
+* - [ ]Implement an object association strategy with higher speed and accuracy
+```
 
 
 <section class="section" id="BibTeX">
