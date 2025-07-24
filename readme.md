@@ -2,6 +2,13 @@
 
 # DQO-MAP: Real-Time Object-Level SLAM via Dual Quadrics and Gaussians
 
+</p>
+   <h3 align="center">
+
+   [![arXiv](https://arxiv.org/abs/2503.02223)](https://arxiv.org/abs/2503.02223) [![ProjectPage](https://github.com/LiHaoy-ux/DQO-MAP/)](https://github.com/LiHaoy-ux/DQO-MAP/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+  <div align="center"></div>
+</p>
+
 ![gui_example_change](gui_example_change.jpg)
 
 This repository contains the official implementation of the paper "DQO-MAP: Real-Time Object-Level SLAM via Dual Quadrics and Gaussians", available at [here](https://github.com/LiHaoy-ux/DQO-MAP).
@@ -9,7 +16,7 @@ This repository contains the official implementation of the paper "DQO-MAP: Real
 Abstract: *While 3D Gaussian Splatting has recently demonstrated impressive results in scene-level reconstruction, it lacks the ability to reconstruct and track individual objects with accurate poses. This limitation hinders its application in downstream tasks such as augmented reality and embodied AI, where object-level understanding is essential. To address this gap, we propose DQO-MAP, a real-time online multi-object SLAM framework that jointly estimates the 6-DoF poses of objects and reconstructs their shapes using dual quadrics and Gaussians. Our method performs object initialization and association on the CPU and runs parallel optimization on the GPU. With object IDs as guidance, it enables fast and independent reconstruction of multiple objects in a scene. Experimental results on *Cube-Diorama*, *Replica*, and self-collected datasets demonstrate that DQO-MAP achieves higher reconstruction accuracy, completeness, and pose precision while running faster and with lower memory than prior methods. Code and datasets are available at https://github.com/LiHaoy-ux/DQO-MAP.*
 
 
-## 1. Installation
+## 💻1. Installation
 
 ### 1.1 Clone the Repository
 
@@ -44,7 +51,7 @@ python orbslam_rgbd_tum.py # please set voc_path, association_path ...
 python eval_ate.py path_to_groundtruth.txt trajectory.txt --plot PLOT --verbose
 ```
 Once the program completes with no errors and the trajectory matches expectations, proceed to the following stage.
-## 2. Dataset Preparation
+## 📦2. Dataset Preparation
 ### 2.1 Replica
 ```bash
 bash scripts/download_replica.sh
@@ -71,7 +78,7 @@ bash scripts/download_room.sh
     	
 ```
 
-## 3. Run
+## 🚀3. Run
 
 
 ### 3.1 Replica
@@ -109,7 +116,7 @@ python slam_mp.py --config ./configs/aithor/aithor1.yaml
 
 If you do not want the GUI runtime window to be displayed, set use_gui: False (default true) in the last line of config/base.yaml.
 
-### 4 News and TODOs
+### 4.✈️News and TODOs
 
 
 * - [X] 📰The DQO-MAP paper published online
