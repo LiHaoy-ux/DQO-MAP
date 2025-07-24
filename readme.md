@@ -2,8 +2,6 @@
 
 # DQO-MAP: Real-Time Object-Level SLAM via Dual Quadrics and Gaussians
 
-The relevant files have not been uploaded completely yet, and the following operations still cannot be fully implemented.
-
 ![gui_example_change](gui_example_change.jpg)
 
 This repository contains the official implementation of the paper "DQO-MAP: Real-Time Object-Level SLAM via Dual Quadrics and Gaussians", available at [here](https://github.com/LiHaoy-ux/DQO-MAP).
