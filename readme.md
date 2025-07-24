@@ -5,7 +5,7 @@
 </p>
    <h3 align="center">
 
-   [![arXiv](https://img.shields.io/badge/arXiv-2503.02223-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2503.02223) [![ProjectPage](https://img.shields.io/badge/Project_Page-GauS%20SLAM-blue)](https://github.com/LiHaoy-ux/DQO-MAP/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+   [![arXiv](https://img.shields.io/badge/arXiv-2503.02223-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2503.02223) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ![gui_example_change](gui_example_change.jpg)
 
