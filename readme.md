@@ -114,7 +114,7 @@ If you do not want the GUI runtime window to be displayed, set use_gui: False (d
 ### 4 News and TODOs
 
 
-* - [X] 📰The DQ-MAP paper published online
+* - [X] 📰The DQO-MAP paper published online
 * - [X] 🔥Release the rough version of the source code
 * - [ ] The complete source code after open source refactoring
 * - [ ] Publish the dataset online
