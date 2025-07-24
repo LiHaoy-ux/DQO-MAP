@@ -1,6 +1,5 @@
 ﻿
-
-# DQO-MAP: Real-Time Object-Level SLAM via Dual Quadrics and Gaussians
+ <h2 align="center">DQO-MAP: Real-Time Object-Level SLAM via Dual Quadrics and Gaussians</h2>
 
 </p>
    <h3 align="center">
