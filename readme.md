@@ -7,6 +7,8 @@
    [![arXiv](https://img.shields.io/badge/arXiv-2503.02223-blue?logo=arxiv&color=%23B31B1B)](https://arxiv.org/abs/2503.02223) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ![gui_example_change](gui_example_change.jpg)
+  </h3>
+</p>
 
 This repository contains the official implementation of the paper "DQO-MAP: Real-Time Object-Level SLAM via Dual Quadrics and Gaussians", available at [here](https://github.com/LiHaoy-ux/DQO-MAP).
 
