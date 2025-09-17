@@ -1,10 +1,10 @@
 parent: "configs/base.yaml"
-device_list: [1]
-save_path: "output/replica_test/debug"
+device_list: [0]
+save_path: "output/real/debug"
 
 # dataset params:
-type: "Replica"
-source_path: "data/Replica/office0"
+type: "RO-MAP"
+source_path: "data/real/collected"
 
 uniform_sample_num: 40800
 

@@ -1,0 +1,11 @@
+parent: "configs/RO-MAP_base.yaml"
+save_step: 100
+
+frame_start: 0
+frame_step: 0
+frame_num: -1
+
+# dataset params:
+source_path: "./data/RO-MAP_data/room"
+save_path: "output/dataset/RO-MAP_data/room"
+json_path: "configs/RO-MAP/detect_obj/room.json"

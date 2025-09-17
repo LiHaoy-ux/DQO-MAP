@@ -1,0 +1,11 @@
+parent: "configs/RO-MAP-real_base.yaml"
+save_step: 50
+
+frame_start: 0
+frame_step: 0
+frame_num: -1
+
+# dataset params:
+source_path: "./data/RO-MAP_data/scene1"
+save_path: "output/dataset/RO-MAP_data/scene1"
+json_path: "configs/RO-MAP/detect_obj/scene1.json"

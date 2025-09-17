@@ -1,0 +1,11 @@
+parent: "configs/real_base.yaml"
+save_step: 100
+
+frame_start: 0
+frame_step: 0
+frame_num: -1
+
+# dataset params:
+source_path: "./data/real/collected"
+save_path: "output/dataset/real/collected"
+json_path: "configs/real/detect_obj/real.json"

@@ -1,11 +1,10 @@
 parent: "configs/base.yaml"
 device_list: [1]
-save_path: "output/replica_test/debug"
+save_path: "output/aithor/debug"
 
 # dataset params:
-type: "Replica"
-source_path: "data/Replica/office0"
-
+type: "RO-MAP"
+source_path: "data/aithor/aithor1"
 uniform_sample_num: 40800
 
 # state manage

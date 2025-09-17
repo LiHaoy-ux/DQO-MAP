@@ -1,0 +1,11 @@
+parent: "configs/aithor_base.yaml"
+save_step: 100
+
+frame_start: 0
+frame_step: 0
+frame_num: -1
+
+# dataset params:
+source_path: "./data/aithor/aithor1"
+save_path: "output/dataset/aithor/aithor1"
+json_path: "configs/aithor/detect_obj/aithor1.json"
